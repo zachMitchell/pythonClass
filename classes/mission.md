@@ -4,10 +4,10 @@ Imagine you're holding a ball. It has many interesting features like size, color
 
 **Objects** are like nouns (Persons places or things). All the features listed above can be contianed in one of these things! They get defined like they normally would in python, but they are instead unique to each object created. For example, one ball can be `red` while another can be `blue`.
 
-**Classes** are like the template to help build those objects. Once everything is defined for the class, you can use it in many differnt ways. When you define a class, you can also create functions that relate to each object seperately. If you create `bounce()` for example, that single ball will bounce, and values related to it will change.
+**Classes** are the template to help build those objects. Once everything is defined for the class, you can use it in many differnt ways. When you define a class, you can also create functions that relate to each object seperately. If you create `bounce()` for example, that single ball will bounce, and values related to it will change.
 
 ## Syntax:
-To creating a class looks like this:
+Creating a class looks like this:
 ```python
 class myAwesomeClass(object):
     def __init__(self,arg1,arg2):
